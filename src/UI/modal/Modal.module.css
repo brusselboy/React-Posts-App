@@ -1,0 +1,39 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.modal__content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    min-width: 500px;
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.modal__close {
+    background-color: white;
+    color: #3c3c3c;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    padding: 4px 10px 4px 10px;
+    cursor: pointer;
+}

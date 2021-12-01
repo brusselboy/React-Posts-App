@@ -1,0 +1,15 @@
+.Btn {
+    padding: 10px 15px;
+    background: #6d44a0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: .85rem;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    transition: .2s linear;
+}
+
+.Btn:hover {
+    background-color: #5a3883;
+}
